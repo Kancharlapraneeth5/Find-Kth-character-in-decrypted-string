@@ -1,0 +1,8 @@
+// Find K th character of decrypted string
+
+N=input()
+k=int(input())
+S=""
+for i in range(0,len(N),2):
+  S=S+(n[i]*int(n[i+1]))
+print(S[k-1])
